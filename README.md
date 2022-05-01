@@ -16,5 +16,8 @@
 (lecture08 - StreamExamples3)
     - filter(), map(), distinct()
     - collect(toList()), collect(toSet()), collect(joining()), findFirst(), count()
+- Stream의 기본 기능 실습\
+(lecture08 - StreamExamples4)
+    - reduce(), filter(), map(), collect()
 
  
