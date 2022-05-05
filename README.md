@@ -14,6 +14,29 @@
 - 간단한 예제로 살펴보는 객체 지향적인 코드 작성 → 함수형 프로그래밍 코드 작성
 (lecture01 - OopAnotherExample, OopAnotherExample2, FpExample)
     - OOP에서 불편했던 부분이 FP로 어떻게 개선될 수 있는지 확인
+    
+> 2장
+- java.util.function.Function 내용 및 함수형 프로그래밍 간단한 예제\
+(lecture02 - FunctionalInterfaceExample)
+ java.util.function.Function 클래스
+    - @FunctionalInterface 선언
+    - apply() 메서드는 T 타입을 받아서 R 타입을 리턴 → T 타입이 다른 R 타입으로 변경하는 개념
+    - 같은 타입을 리턴하는 identity() 정적 메서드도 제공 (필수 조건: 인자로 받은 해당 타입의 객체를 그대로 리턴)
+    - 자바8 부터는 인터페이스에 메서드 바디를 가지는 default 메서드를 가질 수 있으며, static 메서드도 가질 수 있음
+
+> 3장
+- java.util.function.Consumer 내용 및 함수형 프로그래밍 간단한 예제\
+(lecture03 - FunctionalInterfaceExample)
+    - @FunctionalInterface 선언
+    - accept(T t) 메서드는 T 타입 인자를 받음
+    
+> 4장
+- java.util.function.Predicate 내용 및 함수형 프로그래밍 간단한 예제\
+(lecture04 - FunctionalInterfaceExample)
+    - @FunctionalInterface 선언
+    - test(T t) 메서드는 T 타입 인자를 받음
+    - 항상 boolean 타입 결과를 리턴
+    - 주어진 조건이 충족되는지 여부를 판단
 
 > 8장
 - Stream으로 (1 ~ ∞) 자연수 값 표현하기\
