@@ -11,6 +11,9 @@
 - 간단한 예제로 살펴보는 java8 기능을 사용해야 하는 이유\
 (lecture01 - WhyJava8Example1)
     - map, collect(joining())
+- 간단한 예제로 살펴보는 객체 지향적인 코드 작성 → 함수형 프로그래밍 코드 작성
+(lecture01 - OopAnotherExample, OopAnotherExample2, FpExample)
+    - OOP에서 불편했던 부분이 FP로 어떻게 개선될 수 있는지 확인
 
 > 8장
 - Stream으로 (1 ~ ∞) 자연수 값 표현하기\
