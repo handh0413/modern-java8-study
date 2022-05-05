@@ -18,6 +18,17 @@
 > 2장
 - java.util.function.Function 내용 및 함수형 프로그래밍 간단한 예제\
 (lecture02 - FunctionalInterfaceExample)
+ java.util.function.Function 클래스
+    - @FunctionalInterface 선언
+    - apply() 메서드는 T 타입을 받아서 R 타입을 리턴 → T 타입이 다른 R 타입으로 변경하는 개념
+    - 같은 타입을 리턴하는 identity() 정적 메서드도 제공 (필수 조건: 인자로 받은 해당 타입의 객체를 그대로 리턴)
+    - 자바8 부터는 인터페이스에 메서드 바디를 가지는 default 메서드를 가질 수 있으며, static 메서드도 가질 수 있음
+
+> 3장
+- java.util.function.Consumer 내용 및 함수형 프로그래밍 간단한 예제\
+(lecture03 - FunctionalInterfaceExample)
+    - @FunctionalInterface 선언
+    - accept(T t) 메서드는 T 타입 인자를 받음
 
 > 8장
 - Stream으로 (1 ~ ∞) 자연수 값 표현하기\
