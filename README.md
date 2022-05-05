@@ -29,6 +29,14 @@
 (lecture03 - FunctionalInterfaceExample)
     - @FunctionalInterface 선언
     - accept(T t) 메서드는 T 타입 인자를 받음
+    
+> 4장
+- java.util.function.Predicate 내용 및 함수형 프로그래밍 간단한 예제\
+(lecture04 - FunctionalInterfaceExample)
+    - @FunctionalInterface 선언
+    - test(T t) 메서드는 T 타입 인자를 받음
+    - 항상 boolean 타입 결과를 리턴
+    - 주어진 조건이 충족되는지 여부를 판단
 
 > 8장
 - Stream으로 (1 ~ ∞) 자연수 값 표현하기\
