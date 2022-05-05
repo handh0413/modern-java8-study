@@ -14,6 +14,10 @@
 - 간단한 예제로 살펴보는 객체 지향적인 코드 작성 → 함수형 프로그래밍 코드 작성
 (lecture01 - OopAnotherExample, OopAnotherExample2, FpExample)
     - OOP에서 불편했던 부분이 FP로 어떻게 개선될 수 있는지 확인
+    
+> 2장
+- java.util.function.Function 내용 및 함수형 프로그래밍 간단한 예제\
+(lecture02 - FunctionalInterfaceExample)
 
 > 8장
 - Stream으로 (1 ~ ∞) 자연수 값 표현하기\
